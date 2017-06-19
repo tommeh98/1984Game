@@ -3,8 +3,6 @@ var resources = 100;
 var control = 0;
 var population = 10000;
 
-var time = 0;
-setInterval(myTimer, 1000); // Counts time
 
 var events = [new Event(1, 4, 3, 2, 0, 0, 3, "Bombings are increasing, enemies are winning!"), 
 			new Event(1, 4, 3, 3, 2, 3, 3, "Three-Minutes Hate is soon! Be there!"),
